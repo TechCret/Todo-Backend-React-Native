@@ -1,0 +1,12 @@
+server:
+  port: 5490
+spring:
+  data:
+    mongodb:
+      database: todoReactNative
+      host: localhost
+      port: 27017
+
+app:
+        jwtSecret: "G,yEz0Nn2z0L[G<}xpHR[$Ip<`s&qL4I0g#`dj{yje@*hFAE_DvAgTYU@Gkomi#"
+        jwtExpirationInHours: 48
